@@ -16,7 +16,7 @@ body {
 
 /* utilities */
 .container{
-    padding: 1.2rem 3rem;
+    padding: .8rem 3rem;
 }
 
 .button {
@@ -35,6 +35,26 @@ body {
     background-color: #00aef0;
 }
 
+.bg-purple {
+    background-color: #a470eb;
+}
+
+.bg-green {
+    background-color: #36c3a8;
+}
+
+.bg-orange {
+    background-color: #ff9900;
+}
+
+.bg-pink {
+    background-color: #e95aa3;
+}
+
+.bg-lightgreen {
+    background-color: #aaca00;
+}
+
 .border-grey {
     border-color: #d0d6da;
 }
@@ -46,11 +66,15 @@ body {
 .green {
     border-color: #52cab4;
     color: #52cab4;
+
+    padding: 0 .25rem 0;
 }
 
 .red {
     border-color: #ff7472;
     color: #ff7472;
+
+    padding: 0 .35rem 0;
 }
 
 .text-white {
@@ -69,7 +93,7 @@ body {
     border-radius: 50%;
     border: .1rem solid;
     
-    padding: 0 .25rem 0;
+    
 
     vertical-align: bottom;
 }
@@ -81,11 +105,15 @@ body {
 .title {
     font-size: 1rem;
     line-height: 3rem;
+
+    color: #3e434d;
 }
 
 .text {
     font-size: .8rem;
     line-height: 3rem;
+
+    color: #3e434d;
 }
 
 .tag {
@@ -94,6 +122,9 @@ body {
     border-radius: .8rem;
 }
 
+.hidden {
+    display: none;
+}
 /* main */
 #app-header {
     background-color: #ffffff;
