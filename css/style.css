@@ -20,6 +20,7 @@ body {
 }
 
 .button {
+    font-size: 1rem;
     border: 0;
     border-radius: .4rem;
     padding: .5rem 1rem;
@@ -42,12 +43,55 @@ body {
     border-color: #00aef0;   
 }
 
+.green {
+    border-color: #52cab4;
+    color: #52cab4;
+}
+
+.red {
+    border-color: #ff7472;
+    color: #ff7472;
+}
+
 .text-white {
     color: #ffffff;
 }
 
 .text-grey {
     color: #d0d6da;
+}
+
+.task {
+    line-height: 3rem;
+}
+
+.circle {
+    border-radius: 50%;
+    border: .1rem solid;
+    
+    padding: 0 .25rem 0;
+
+    vertical-align: bottom;
+}
+
+.arrow {
+    vertical-align: top;
+}
+
+.title {
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.text {
+    font-size: .8rem;
+    line-height: 3rem;
+}
+
+.tag {
+    font-size: .5rem;
+    padding: .4rem .6rem;
+    border-radius: .8rem;
 }
 
 /* main */
