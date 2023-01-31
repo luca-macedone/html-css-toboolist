@@ -89,8 +89,12 @@ body {
     color: #d0d6da;
 }
 
-.task {
+.task-list {
     line-height: 3rem;
+}
+
+.task {
+    list-style: none;
 }
 
 .circle {
@@ -104,25 +108,26 @@ body {
 
 .arrow {
     vertical-align: sub;
+    list-style: none;
     font-size: .8rem;
 }
 
 .title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 3rem;
 
     color: #3e434d;
 }
 
 .text {
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 3rem;
 
     color: #3e434d;
 }
 
 .tag {
-    font-size: .5rem;
+    font-size: .8rem;
     padding: .4rem .6rem;
     border-radius: .8rem;
 }
@@ -169,4 +174,8 @@ hr {
     text-align: center;
 
     background-color: #ffffff;
+}
+
+.arrow li {
+    padding-left: 0;
 }
